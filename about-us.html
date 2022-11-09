@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+  <!-- ** Basic Page Needs ** -->
+  <meta charset="utf-8">
+  <title>RainTED - Acerca De</title>
+
+  <!-- ** Mobile Specific Metas ** -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Agency HTML Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Themefisher Classified Marketplace Template v1.0">
+
+  <!-- favicon -->
+  <link href="images/favicon.png" rel="shortcut icon">
+
+  <!-- 
+  Essential stylesheets
+  =====================================-->
+  <link href="plugins/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="plugins/bootstrap/bootstrap-slider.css" rel="stylesheet">
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="plugins/slick/slick.css" rel="stylesheet">
+  <link href="plugins/slick/slick-theme.css" rel="stylesheet">
+  <link href="plugins/jquery-nice-select/css/nice-select.css" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+</head>
+
+<body class="body-wrapper">
+
+
+	<header>
+		<!-- Contener input de busqueda, iniciar sesión y registrarse. -->
+
+		<nav class="navbar navbar-expand-lg" id="navHeader">
+			<div class="container">
+				<a class="navbar-brand logoP" href="../../index.html"><img src="images/logo-Positivo.png"
+						alt="Logo"></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+					<form class="d-flex" role="search">
+						<input class="form-control me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
+						<button class="bi bi-search btn-success"></i></button>
+					</form>
+					<ul class="navbar-nav ml-auto main-nav">
+						<li class="nav-item active">
+							<a class="nav-link" href="../../index.html">Inicio</a>
+						</li>
+						<li class="nav-item dropdown dropdown-slide @@dashboard">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#!">Catalogo<span><i
+										class="fa fa-angle-down"></i></span>
+							</a>
+
+							<!-- Dropdown list -->
+							<ul class="dropdown-menu">
+								<li>
+									<a class="dropdown-item @@dashboardPage submenu" href="ad-list-view.html">Productos</a>
+								</li>
+								<li class="nav-item dropdown dropdown-slide @@pages">
+									<a class="dropdown-item submenu" href="">Ofertas</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="nav-item dropdown dropdown-slide @@pages">
+							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+								aria-expanded="false">Acerca de<span><i class="fa fa-angle-down"></i></span></a>
+
+							<!-- Dropdown list -->
+							<ul class="dropdown-menu">
+								<li>
+									<a class="dropdown-item @@about submenu" href="about-us.html">¿Quiénes somos?</a>
+								</li>
+
+								<li class="nav-item dropdown dropdown-slide @@pages">
+									<a class="dropdown-item submenu" href="">Ayuda/PQR</a>
+								</li>
+
+								<li>
+									<a class="dropdown-item @@about submenu" href="contact-us.html">Contactanos</a>
+								</li>
+								<li>
+									<a class="dropdown-item @@terms submenu" href="terms-condition.html">Terminos &amp;
+										Condiciones</a>
+								</li>
+							</ul>
+						</li>
+
+
+						<li class="nav-item dropdown dropdown-slide @@pages">
+							<a class="nav-link dropdown-toggle bi bi-cart" href="dashboard-favourite-ads.html"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Carrito</a>
+						</li>
+
+						<!-- <a class="btn text-aling-center login-button" href="login.html" role="button"><b>Iniciar Sesión</b></a>
+						<a class="btn btn-success text-aling-center register-button" href="register.html" role="button"><b>Resistrarse</b></a> -->
+						<div class="contRegistrosSesion">
+							<ul class="nav-item dropdown dropdown-slide">
+								<li class="nav-item">
+									<a class="nav-link login-button" href="login.php"><i
+											class="bi bi-box-arrow-in-right"></i><b> Iniciar Sesión</b></a>
+								</li>
+								<li class="nav-item dropdown dropdown-slide">
+
+
+									<a class="nav-link btn-success register-button" href="register.php"><i
+											class="bi bi-person-plus"></i><b> Registrarse</b></a>
+								</li>
+							</ul>
+						</div>
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+	</header>
+  <!--================================
+=            Page Title            =
+=================================-->
+  <section class="page-title">
+    <!-- Container Start -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2 text-center">
+          <!-- Title text -->
+          <h3>Acerca De</h3>
+        </div>
+      </div>
+    </div>
+    <!-- Container End -->
+  </section>
+
+  <section class="section-about" style="margin-bottom: 50px;">
+    <div class="section-nos">
+      <h3 class="text-center titulo-acerca">Proyecto</h3>
+    </div>
+    <div class="about-content container">
+      <p>El proyecto RainTED buscó desarrollar un sistema de información el cual supliera las necesidades de la entidad
+        con el fin de establecer un excelente servicio al cliente, y además un buen espacio laboral por parte de los
+        trabajadores
+        y así facilitar y agilizar procesos dentro de la organización.</p>
+      <p>Este proyecto visualizo unos alcances, los cuales podemos dividir en: <br>
+        <li>Manejar un control de existencias.</li>
+        <li>Generar copias de seguridad.</li>
+        <li>Crear formularios de resgistro.</li>
+        <li>Manejo de diferentes roles.</li>
+        <li>Registro e inicio de sesión para los usuarios del sistema.</li>
+      </p>
+    </div>
+  </section>
+
+  <section style="margin-bottom: 50px;">
+    <div class="section-nos">
+      <h3 class="text-center titulo-acerca">Página web</h3>
+    </div>
+    <div class="about-content container">
+      <p>En esta página web encontrará a la mano todo lo que usted como cliente necesita, distribuido en diferentes
+        secciones para
+        mayor comodidad a la hora de interactuar con el sistema, podrá encontar en la parte superior un panel de
+        navegación con las diferentes
+        opciones como un sistema de inicio de sesión o en su defecto el registro, el catálogo de productos y servicios,
+        y un carrito para
+        sus próximas compras.</p>
+      <p>El diseño de esta página fue escogido por los integrantes del desarrollo, basándonos en las necesidades de la
+        entidad y con el
+        objetivo de que sea agradable a la vista de todos y cada uno de ustedes.
+      </p>
+    </div>
+  </section>
+
+  <section style="margin-bottom: 50px;">
+    <div class="section-nos">
+      <h3 class="text-center titulo-acerca">Nosotros</h3>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="about-img">
+            <img src="images/about/about.jpg" class="img-fluid w-100 rounded " alt="Fotografia grupal del equipo">
+          </div>
+        </div>
+        <div class="col-lg-6 pt-5">
+          <div class="about-content">
+            <h4 class="font-weight-bold">¿Quienes somos?</h4>
+            <p>Somos un equipo de trabajo que buscó desarrollar un sistema de información el cual supla las necesidades
+              de la entidad,
+              como el manejo de datos, ventas y facturación. Estableciendo un buen servicio al cliente y comodidad a los
+              mismos empleados.</p>
+            <p>Nuestro equipo de trabajo esta formado por 6 integrantes, todos con conocimientos en el desarrollo de
+              sistemas de información,
+              de esta manera cada uno aporto, apoyo y se encargo de una parte esencial del proyecto RainTED, que estan
+              visualizando ahora.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="heading text-center text-capitalize font-weight-bold py-5">
+            <h2>Integrantes del Equipo</h2>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6" style="padding-bottom: 20px;">
+          <div class="card my-3 my-lg-0">
+            <img class="card-img-top " src="images/about/team4.jpg" class="img-fluid w-100" alt="Fotografia individual">
+            <div class="card-body bg-gray text-center">
+              <h5 class="card-title">Sebastian Mauricio Rodriguez</h5>
+              <p class="card-text">Analista y desarrollador de sistemas de información</p>
+              <a href="https://www.instagram.com/sebas.r.r/" target="_blank"><i class="bi bi-instagram"
+                  style="font-size: 26px;"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6" style="padding-bottom: 20px;">
+          <div class="card my-3 my-lg-0">
+            <img class="card-img-top " src="images/about/team4.jpg" class="img-fluid w-100" alt="Fotografia individual">
+            <div class="card-body bg-gray text-center">
+              <h5 class="card-title">Weimar Ivan Duarte Ordoñez</h5>
+              <p class="card-text">Analista y desarrollador de sistemas de información</p>
+              <a href="https://www.instagram.com/weimillar81/" target="_blank"><i class="bi bi-instagram"
+                  style="font-size: 26px;"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6" style="padding-bottom: 20px;">
+          <div class="card my-3 my-lg-0">
+            <img class="card-img-top " src="images/about/team4.jpg" class="img-fluid w-100" alt="Fotografia individual">
+            <div class="card-body bg-gray text-center">
+              <h5 class="card-title">Miguel Angel Moreno Sanchez</h5>
+              <p class="card-text">Analista y desarrollador de sistemas de información</p>
+              <a href="https://www.instagram.com/im.t.o.t/" target="_blank"><i class="bi bi-instagram"
+                  style="font-size: 26px;"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6" style="padding-bottom: 20px;">
+          <div class="card my-3 my-lg-0">
+            <img class="card-img-top " src="images/about/team2.jpg" class="img-fluid w-100" alt="Fotografia individual">
+            <div class="card-body bg-gray text-center">
+              <h5 class="card-title">Lady Alejandra Vaca Urrego</h5>
+              <p class="card-text">Analista y desarrollador de sistemas de información</p>
+              <a href="http://instagram.com/lady_14a/" target="_blank"><i class="bi bi-instagram"
+                  style="font-size: 26px;"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6" style="padding-bottom: 20px;">
+          <div class="card my-3 my-lg-0">
+            <img class="card-img-top " src="images/about/team4.jpg" class="img-fluid w-100" alt="Fotografia individual">
+            <div class="card-body bg-gray text-center">
+              <h5 class="card-title">Jasir Paul Diaz Gomez</h5>
+              <p class="card-text">Analista y desarrollador de sistemas de información</p>
+              <a href="https://www.instagram.com/xjxat/" target="_blank"><i class="bi bi-instagram"
+                  style="font-size: 26px;"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6" style="padding-bottom: 20px;">
+          <div class="card my-3 my-lg-0">
+            <img class="card-img-top " src="images/about/team4.jpg" class="img-fluid w-100" alt="Fotografia individual">
+            <div class="card-body bg-gray text-center">
+              <h5 class="card-title">Brayan Alberto Ramirez Paez</h5>
+              <p class="card-text">Analista y desarrollador de sistemas de información</p>
+              <a href="https://www.instagram.com/brayanramirez8784/" target="_blank"><i class="bi bi-instagram"
+                  style="font-size: 26px;"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!--============================
+=            Footer            =
+=============================-->
+
+  <footer class="footer section section-sm">
+    <!-- Container Start -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-7 offset-md-1 offset-lg-0 mb-4 mb-lg-0">
+          <!-- About -->
+          <div class="block about">
+            <!-- footer logo -->
+            <img src="images/logo.png" alt="logo">
+            <!-- description -->
+            <p class="alt-color">El proyecto RainTED se enfoca en las necesidades de las empresas en su
+              producción, ayudando en la oferta de sus productos, incrementando las ganacias generadas en la empresa.
+            </p>
+          </div>
+        </div>
+
+        <!-- Link list -->
+        <div class="col-lg-2 offset-lg-1 col-md-3 col-6 mb-4 mb-lg-0">
+          <div class="block">
+            <h4>Site Pages</h4>
+            <ul>
+              <li><a href="dashboard-my-ads.html">Perfil</a></li>
+              <li><a href="dashboard-favourite-ads.html">Agregados al carrito</a></li>
+              <li><a href="dashboard-archived-ads.html">Productos comprados</a></li>
+              <!-- <li><a href="dashboard-pending-ads.html">Pending Ads</a></li> 
+          <li><a href="terms-condition.html">Terms & Conditions</a></li> -->
+            </ul>
+          </div>
+        </div>
+
+        <!-- Link list -->
+        <div class="col-lg-2 col-md-3 offset-md-1 offset-lg-0 col-6 mb-4 mb-md-0">
+          <div class="block">
+            <h4>Admin Pages</h4>
+            <ul>
+              <li><a href="category.html">Category</a></li>
+              <li><a href="single.html">Single Page</a></li>
+              <li><a href="store.html">Store Single</a></li>
+              <!-- <li><a href="single-blog.html">Single Post</a></li> 
+          <li><a href="blog.html">Blog</a></li>-->
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!-- Container End -->
+  </footer>
+  <!-- Footer Bottom -->
+  <footer class="footer-bottom">
+    <!-- Container Start -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 text-center text-lg-left mb-3 mb-lg-0">
+          <!-- Copyright -->
+          <div class="copyright">
+            <p>Copyright &copy;
+              <script>
+                var CurrentYear = new Date().getFullYear()
+                document.write(CurrentYear)
+              </script>. Designed & Developed by <a class="text-white" href="https://themefisher.com">Themefisher</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <!-- Social Icons -->
+          <ul class="social-media-icons text-center text-lg-right">
+            <li><a class="fa fa-facebook" href="https://www.facebook.com/themefisher"></a></li>
+            <li><a class="fa fa-twitter" href="https://www.twitter.com/themefisher"></a></li>
+            <li><a class="fa fa-pinterest-p" href="https://www.pinterest.com/themefisher"></a></li>
+            <li><a class="fa fa-github-alt" href="https://www.github.com/themefisher"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Container End -->
+    <!-- To Top -->
+    <div class="scroll-top-to">
+      <i class="fa fa-angle-up"></i>
+    </div>
+  </footer>
+
+  <!-- 
+Essential Scripts
+=====================================-->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="plugins/bootstrap/popper.min.js"></script>
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="plugins/bootstrap/bootstrap-slider.js"></script>
+  <script src="plugins/tether/js/tether.min.js"></script>
+  <script src="plugins/raty/jquery.raty-fa.js"></script>
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/jquery-nice-select/js/jquery.nice-select.min.js"></script>
+  <!-- google map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
+  <script src="plugins/google-map/map.js" defer></script>
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
